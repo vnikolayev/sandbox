@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<c:DetailedCFSInformation
+	xmlns:c="http://leitsc-lib/2.0/doc/DetailedCFSInformation" xmlns:ext="http://leitsc-lib/2.0"
+	xmlns:intel="http://niem.gov/niem/domains/intelligence/2.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0"
+	xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:obs="http://www.obsglobal.com/niem/2.0"
+	xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:scr="http://niem.gov/niem/domains/screening/2.0">
+	<ext:Payload>
+		<ext:ServiceCall s:id="S-001">
+			<nc:ActivityDescriptionText>IWATCH TIP</nc:ActivityDescriptionText>
+			<nc:ActivityStatus>
+				<nc:StatusText>RCVD</nc:StatusText>
+			</nc:ActivityStatus>
+			<j:ServiceCallMechanismText>Call ENTER MAN
+			</j:ServiceCallMechanismText>
+			<ext:ServiceCallAugmentation>
+				<ext:CallTypeText>Law</ext:CallTypeText>
+				<ext:CallSubTypeText>IWATCH TIP</ext:CallSubTypeText>
+				<ext:CallPriorityText>3</ext:CallPriorityText>
+				<ext:Comment>
+					<nc:CommentText>
+					[sms_send:1]
+					[id:1145]
+					[approved:0]
+					[emergency:1]
+					[massive_id:1145]
+					[rid:RTA-1145-T]
+					[hphone2:7ebae653]
+					[idate:2014-12-15]
+					[itime:09:03:47]
+					[icity:Cleveland]
+					[istate:OH]
+					[source:T]
+					[itip:Group	of high school students at the tower city healthline station. Might become disruptive]
+					[location:1]
+					[tip_lang:English]
+					[i0:No data]
+					[total:0]
+					[votes:0]
+					[user:0]
+					[audio_file:/phone_calls/]
+					[id:1145]
+					[AgencyORI:RTA]
+					[AgencyName:iWatchRTA]
+					[offenseservicenumber:RTA-1145-T]
+					[offensereporteddate:2014-12-15]
+					[offenserecorddate:2014-12-15]
+					[show_on_map:0]
+					[stage:completed]
+					[race:U]
+					[sex:U]
+					[hphone2:7ebae653]
+					</nc:CommentText>
+					<ext:CommentDateTime>
+						<nc:DateTime>2014-12-20T15:07:41</nc:DateTime>
+					</ext:CommentDateTime>
+					<nc:SourceIDText>IWATCH</nc:SourceIDText>
+				</ext:Comment>
+			</ext:ServiceCallAugmentation>
+		</ext:ServiceCall>
+		<ext:DataOwnerMetadata>
+			<obs:Source>
+				<obs:SiteID>IWATCH</obs:SiteID>
+			</obs:Source>
+			<nc:OrganizationName>GCRTA</nc:OrganizationName>
+			<nc:PersonFullName>CHRISTOPHER KIRBY</nc:PersonFullName>
+			<intel:SystemIdentifier>
+				<nc:IdentificationID>IWATCH</nc:IdentificationID>
+			</intel:SystemIdentifier>
+			<ext:DataItemID>
+				<nc:IdentificationID>1145                  </nc:IdentificationID>
+			</ext:DataItemID>
+			<obs:DestinationList>
+				<obs:SiteID>SLCO</obs:SiteID>
+			</obs:DestinationList>
+		</ext:DataOwnerMetadata>
+	</ext:Payload>
+</c:DetailedCFSInformation>
