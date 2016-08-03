@@ -1,0 +1,15 @@
+C:\Windows\system32\icacls.exe C:\ProgramData/Spillman/GISI/6.3 /grant LocalService:(CI)F /T
+
+VETERANS PARK EXTREMELYVERYLONG CIR & VETERANS PARK DR
+
+Faulting application name: ArcSOC.exe, version: 10.3.1.4959, time stamp: 0x5519c79f
+Faulting module name: DADFLib.dll, version: 10.3.1.4959, time stamp: 0x5519dad7
+Exception code: 0xc0000005
+Fault offset: 0x00000000000169a7
+Faulting process id: 0x6858
+Faulting application start time: 0x01d1c5ae4469e2d4
+Faulting application path: C:\Program Files\ArcGIS\Server\bin\ArcSOC.exe
+Faulting module path: C:\Program Files\ArcGIS\Server\bin\DADFLib.dll
+Report Id: fa911b2b-31a1-11e6-80d5-005056877c6d
+Faulting package full name: 
+Faulting package-relative application ID: 
